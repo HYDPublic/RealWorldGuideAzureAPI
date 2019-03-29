@@ -7,6 +7,13 @@ namespace RealWorldGuide.Controllers
 {
     public class LocationController : ApiController
     {
+        // GET: api/Location/Test
+        [HttpGet, Route("api/location/test")]
+        public string Test()
+        {
+            return "This is a test";
+        }
+
         // GET: api/Location/Events
         [HttpGet, Route("api/location/events")]
         public List<Event> GetAllEvents()
