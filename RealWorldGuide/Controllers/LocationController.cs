@@ -11,7 +11,7 @@ namespace RealWorldGuide.Controllers
         [HttpGet, Route("api/location/test")]
         public string Test()
         {
-            return "This is a test";
+            return "Hello, this is a test.";
         }
 
         // GET: api/Location/Events
